@@ -1,6 +1,6 @@
-num_1 = ...  # здесь Ваш код
-num_2 = ...  # здесь Ваш код
+num_1 = int(input())
+num_2 = int(input())
 
-average: float = ...  # здесь Ваш код
+average: float = (num_1 + num_2) / 2
 
-print(...)  # допишите код
+print(average)

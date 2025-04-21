@@ -1,4 +1,4 @@
-celsius = ...  # здесь Ваш код
+celsius =
 
 fahrenheit = ...  # здесь Ваш код
 

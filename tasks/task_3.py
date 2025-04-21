@@ -1,6 +1,6 @@
 pi: float = 3.14159
 
-radius = ...  # здесь Ваш код
-area = ...  # здесь Ваш код
+radius = float(input('Введите радиус круга:'))
+area = pi * radius ** 2
 
-print(...)  # допишите код
+print('Площадь круга равна\n', area)
