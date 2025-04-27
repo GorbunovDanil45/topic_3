@@ -1,5 +1,5 @@
-celsius =
+celsius = int(input('Введите температуру в градусах Цельсия:'))
 
-fahrenheit = ...  # здесь Ваш код
+fahrenheit = 9 / 5 * celsius + 32
 
-print(...)  # допишите код
+print('Температура ' + str(celsius) + 'C по Фаренгейту ' + str(fahrenheit) + 'F')
