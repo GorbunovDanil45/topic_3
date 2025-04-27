@@ -1,7 +1,7 @@
-distance = ...  # здесь Ваш код
-average_speed = ...  # здесь Ваш код
+distance = int(input('Введите расстояние до пункта назначения в км:'))
+average_speed = int(input('Введите среднюю скорость в км/ч:'))
+hours: int = distance // average_speed
+minutes: int = hours * 60 % 60
 
-hours: int = ...  # здесь Ваш код
-minutes: int = ...  # здесь Ваш код
-
-print(...)  # допишите код
+print('При расстоянии', distance, 'км. и скорости', average_speed,
+      'км\ч. время в пути:', hours, 'часа', minutes, 'минут.')
